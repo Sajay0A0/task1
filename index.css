@@ -14,6 +14,10 @@
   width: 100%;
   height: 62px;
 }
+.nav-main-div{
+  display: flex;
+}
+
 .logo {
   width: 180px;
   height: 28px;
@@ -106,12 +110,13 @@
   height: 5px;
   line-height: 80px;
   color: #000000;
+  text-align: center;
 }
 .line-div {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 58px 0 0 0px;
+  margin: 60px 0 0 -10px;
 }
 .line-div-1 {
   display: flex;
@@ -129,7 +134,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: -10px 0 0 10px;
+  margin: -10px 0 0 0px;
 }
 .line-div-4 {
   display: flex;
@@ -309,19 +314,21 @@
   line-height: 80px;
   color: #000;
   margin: 30px 0 0 610px;
+  text-align: center;
+
 }
 
 .customer-main-div {
   width: 100%;
   height: auto;
   margin: 50px 0px 10px 0px;
-  gap: 17px;
+  gap: 0px;
 }
 .customer-card-div {
   margin: 0 0 0 140px;
   width: 100%;
   height: auto;
-  gap: 10px;
+  gap: 0px;
 }
 .customer-div {
   width: auto;
@@ -347,7 +354,7 @@
   line-height: 23px;
   color: #c71616;
   width: 230px;
-  height: 42px;
+  height: auto;
   display: flex;
   text-align: left;
   -ms-flex-align: start;
@@ -360,8 +367,7 @@
   font-size: 14px;
   line-height: 23px;
   color: #462c2c;
-  position: absolute;
-  margin: -30px 0 30px 0;
+  margin: 0px 0 0px 0;
 }
 .price {
   font-family: Montserrat;
@@ -369,8 +375,7 @@
   font-size: 14px;
   line-height: 22px;
   color: #b0b0b0;
-  position: relative;
-  margin: 30px 0 10px 0;
+  margin: 0px 0 0px 0;
 }
 .cross {
   color: #ff5757;
@@ -404,7 +409,9 @@
   font-weight: 600;
   line-height: 80px;
   color: #000;
-  margin: 20px 0 0 550px;
+  /* margin: 20px 0 0 550px; */
+  text-align: center;
+
 }
 
 .offer {
@@ -444,11 +451,12 @@
   font-size: 26px;
   font-weight: 600;
   line-height: 80px;
+  text-align: center;
+
 }
-.eid-main-div {
-}
+
 .eid-pic {
-  width: 81%;
+  width: 82%;
   height: auto;
   margin: 30px 0 0 140px;
 }
@@ -493,7 +501,7 @@
   font-weight: 700;
   font-size: 18px;
   line-height: 22px;
-  margin: 160px 7px 7px 7px;
+  margin: 7px 7px 7px 7px;
   color: #000000;
 }
 .update {
@@ -515,6 +523,8 @@
   font-weight: 600;
   font-size: 26px;
   line-height: 80px;
+  text-align: center;
+
 }
 .news-div {
   width: 85%;
@@ -668,6 +678,16 @@
 }
 
 @media (max-width: 576px) {
+ 
+ 
+  .nav-main-div{
+    display:initial;
+  }
+  .logo {
+    width: 180px;
+    height: 28px;
+    text-align: center;
+  }
   .menu-list {
     margin-left: 0%;
     width: 100%;
@@ -775,7 +795,7 @@
     border-radius: 60px;
     width: 100px;
     height: auto;
-    margin-left: -35px;
+    margin-left: -15px;
   }
   .category-div-1 {
     width: 100%;
@@ -787,7 +807,7 @@
     font-size: 11px;
     line-height: 40px;
     text-align: center;
-    margin-left: -75px;
+    margin-left: -25px;
     gap: 50px;
     color: #6f6f6f;
   }
@@ -855,6 +875,10 @@
     gap: 10px;
     flex-wrap: wrap;
   }
+  .customer-div-1 {
+    padding: 10px 0 0px 15px;
+    gap: 5px;
+  }
   .customer-div {
     width: 100%;
     height: auto;
@@ -865,13 +889,13 @@
   }
   .title-3 {
     font-size: 18px;
-    margin: 10px 0 0 100px;
+    margin: -60px 0 0 0px;
   }
   .offer {
     width: 100%;
     margin-top: 30px;
     flex-wrap: wrap;
-    margin: 50px 0 0 10px;
+    margin: 50px 0 0 0px;
 
   }
   .offer-div{
@@ -892,7 +916,7 @@
     height: auto;
   }
   .title-4 {
-    margin: 10px 0 0 130px;
+    margin: 10px 0 0 140px;
     font-size: 18px;
   }
   .eid-pic {
@@ -908,7 +932,7 @@
   }
   .banking-main-div {
     margin: 30px 0 0 12px;
-    gap: 30px;
+    gap: 20px;
     flex-wrap: wrap;
   }
   .banking-div {
@@ -929,7 +953,7 @@
   }
   .banking-off {
     font-size: 13px;
-    margin: 95px 0;
+    margin: 5px 0;
   }
   .update {
     gap: 6px;
