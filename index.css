@@ -84,7 +84,7 @@
   margin: -30px 40px 0 0px;
 }
 .star {
-  margin: -10px 0 0 0;
+  margin:-10px 0 0 0;
 }
 .category-1 {
   width: 1844px;
@@ -93,7 +93,6 @@
   top: 1108px;
   background: white;
   left: 38px;
-  position: absolute;
 }
 .title-1-div {
   position: relative;
@@ -165,10 +164,9 @@
 .category-1 {
   width: 100%;
   height: auto;
-  position: relative;
   left: 0;
   padding: 0 0 0 30px;
-  margin: -1050px 0 0 0;
+  margin:40px 0 0 0;
 }
 .category-2 {
   width: 100%;
@@ -205,12 +203,11 @@
 
 .fasion-div {
   width: 100%;
-  position: relative;
 }
 .fasion-name {
   width: 100%;
   height: auto;
-  margin: 1100px 0 0 0;
+  margin: 10px 0 0 0;
   font-family: outfit;
   font-size: 42px;
   font-weight: 600;
@@ -257,14 +254,12 @@
 .fasion-button {
   width: 187px;
   height: 50px;
-  top: 60px;
-  left: 500px;
+  margin: 50px 0 0 0;
   border-radius: 5px;
   font-family: outfit;
   font-weight: 600;
   font-size: 16px;
   line-height: 32px;
-  position: absolute;
   text-align: center;
   background-color: #f5f5f5;
   color: #000000;
@@ -278,15 +273,13 @@
 .fasion-button-1 {
   width: 187px;
   height: 50px;
-  top: 60px;
-  left: 775px;
+  margin: 50px 0 0 0;
   border-radius: 5px;
   font-family: outfit;
   font-weight: 600;
   font-size: 16px;
   line-height: 32px;
   text-align: center;
-  position: absolute;
   background-color: #f5f5f5;
   color: #d39d4e;
   border: solid 1px #d39d4e;
@@ -298,13 +291,11 @@
 }
 
 .fasion-main-div-2 {
-  position: relative;
-  top: -500px;
   width: 100%;
   height: auto;
 }
 .fasion-img-div {
-  margin-top: 45%;
+  margin-top: 40px;
   width: 100%;
 }
 .fasion-img {
@@ -317,14 +308,13 @@
   font-weight: 600;
   line-height: 80px;
   color: #000;
-  margin: -33% 0 0 610px;
+  margin: 30px 0 0 610px;
 }
 
 .customer-main-div {
   width: 100%;
   height: auto;
   margin: 50px 0px 10px 0px;
-  position: absolute;
   gap: 17px;
 }
 .customer-card-div {
@@ -414,15 +404,13 @@
   font-weight: 600;
   line-height: 80px;
   color: #000;
-  margin: 600px 0 0 550px;
+  margin: 20px 0 0 550px;
 }
 
 .offer {
   width: 80%;
   height: auto;
-  left: 150px;
-  position: relative;
-  margin-top: 50px;
+  margin: 50px 0 0 150px;
   gap: 10px;
 }
 .offer-div {
@@ -458,20 +446,16 @@
   line-height: 80px;
 }
 .eid-main-div {
-  position: relative;
 }
 .eid-pic {
   width: 81%;
   height: auto;
-  top: 600px;
-  left: 139px;
-  position: relative;
-  margin: 20px 0 0 0;
+  margin: 30px 0 0 140px;
 }
 .title-5 {
   width: 312px;
   height: 81px;
-  margin: 40% 0 0 600px;
+  margin: 10px 0 0 600px;
   font-family: outfit;
   font-weight: 600;
   font-size: 26px;
@@ -487,7 +471,6 @@
 }
 .banking-div {
   border: none;
-  position: relative;
 }
 .banking-img {
   width: 215px;
@@ -518,7 +501,6 @@
   margin: 40px 80px 0 80px;
   width: 90%;
   height: auto;
-  position: relative;
 }
 .update-img {
   width: 447px;
@@ -558,7 +540,6 @@
   height: auto;
 }
 .content-div {
-  position: relative;
   margin: -80px auto;
   display: flex;
   justify-content: center;
@@ -787,14 +768,13 @@
   .category-1 {
     width: 100%;
     height: auto;
-    position: absolute;
     left: 0;
-    margin: -680px 0 0 0;
+    margin: 30px 0 0 0;
   }
   .category-img {
     border-radius: 60px;
-    height: auto;
     width: 100px;
+    height: auto;
     margin-left: -35px;
   }
   .category-div-1 {
@@ -812,7 +792,7 @@
     color: #6f6f6f;
   }
   .fasion-name {
-    margin: 80% 0 0 0;
+    margin: 30px 0 0 0;
     font-size: 32px;
   }
   .fasion-sub-name {
@@ -845,16 +825,12 @@
     font-size: 12px;
   }
   .fasion-main-div-2 {
-    position: relative;
-    top: 450px;
     width: 100%;
     height: auto;
   }
   .fasion-img {
     width: 100%;
     height: auto;
-    top: -550px;
-    position: relative;
   }
   .title-2 {
     font-family: outfit;
@@ -862,14 +838,13 @@
     font-size: 18px;
     width: 286px;
     height: 81px;
-    margin: -105px 0 0 150px;
+    margin: 10px 0 0 150px;
     line-height: 80px;
   }
   .customer-main-div {
     width: 100%;
     height: auto;
     margin: 50px 0px;
-    position: absolute;
     margin-top: 5%;
     display: flex;
     flex-wrap: wrap;
@@ -890,13 +865,17 @@
   }
   .title-3 {
     font-size: 18px;
-    margin: 550% 0 0 100px;
+    margin: 10px 0 0 100px;
   }
   .offer {
     width: 100%;
-    left: 0px;
     margin-top: 30px;
     flex-wrap: wrap;
+    margin: 50px 0 0 10px;
+
+  }
+  .offer-div{
+    margin: 0;
   }
   .card-container {
     margin-top: 50px;
@@ -919,11 +898,12 @@
   .eid-pic {
     width: 100%;
     height: auto;
-    top: 2620px;
-    left: 0px;
+    margin: 0 0 0 0px;
+
+   
   }
   .title-5 {
-    margin: 545% 0 0 140px;
+    margin: 10px 0 0 140px;
     font-size: 18px;
   }
   .banking-main-div {
@@ -1504,6 +1484,7 @@
   .banking-off {
     font-size: 20px;
     margin: 150px 7px 7px 7px;
+    color: #000000;
   }
  
 }
